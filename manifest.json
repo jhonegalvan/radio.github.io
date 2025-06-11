@@ -2,7 +2,7 @@
   "name": "LIKE Radio",
   "short_name": "LIKE",
   "description": "Aplicación de radio LIKE",
-  "start_url": "/",
+  "start_url": "https://jhonegalvan.github.io/radio.github.io/",
   "display": "standalone",
   "background_color": "#08298a",
   "theme_color": "#08298a",
