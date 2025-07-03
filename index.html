@@ -28,10 +28,8 @@
                         hash: "DS",
                         description: "Transporta tu mente",
                         logo: "assets/ds_logo.png",
-                        album:
-                            "assets/ds.png",
-                        cover:
-                            "assets/bg.png",
+                        album: "assets/ds.png",
+                        cover: "assets/bg.png",
                         api: "",
                         stream_url: "https://stream.zeno.fm/nena3ppg0eruv",
                         tv_url: "",
@@ -47,7 +45,6 @@
                             instagram: "https://www.instagram.com/doradastereo89.1fm",
                             tiktok: "https://www.tiktok.com/@dorada_stereo_89.1f.m",
                             youtube: "https://www.youtube.com/user/doradastereo891fm/videos",
-                            
                         },
                         apps: {
                             android: "https://play.google.com/store/apps/details?id=com.jhongalvan.dsradio&pcampaignid=web_share",
@@ -71,13 +68,6 @@
 
                     <div class="toggle-options flex items-start">
                         </button>
-                        <!--button class="btn" data-outside="offcanvas-stations">
-                            <svg class="i i-list" viewBox="0 0 24 24">
-                                <circle cx="12" cy="12" r="2"></circle>
-                                <path d="M5 4.9a10 10 0 0 0 0 14.2M7.8 7.7a6 6 0 0 0 0 8.6m8.4 0a6 6 0 0 0 0-8.6M19 19.1a10 10 0 0 0 0-14.2"></path>
-                            </svg>
-                            Multiradio
-                        </button-->
                         <button class="btn l:none" data-outside="mobile-menu">
                             <svg class="i i-bars" viewBox="0 0 24 24">
                                 <path d="M3 6h18M3 12h18M3 18h18"></path>
@@ -206,5 +196,8 @@
                 <div class="player-social flex wrap"></div>
             </div>
         </div>
+
+        <!-- Audio element agregado para autoplay -->
+        <audio id="audioElement" muted></audio>
     </body>
 </html>
